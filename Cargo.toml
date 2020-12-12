@@ -1,0 +1,8 @@
+[package]
+name = "poker-combination-training"
+version = "0.1.0"
+authors = ["Evgeniy Terekhin <e_terekhin@wargaming.net>"]
+edition = "2018"
+
+[dependencies]
+poker-lib = { git = "ssh://git@github.com/verrchu/poker-lib.git", tag = "0.1.0" }
