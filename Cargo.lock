@@ -34,13 +34,14 @@ dependencies = [
 name = "poker-combination-training"
 version = "0.1.0"
 dependencies = [
+ "itertools",
  "poker-lib",
 ]
 
 [[package]]
 name = "poker-lib"
-version = "0.1.0"
-source = "git+ssh://git@github.com/verrchu/poker-lib.git?tag=0.1.0#95f940a2523743712810a45cf71cf99973b3b93b"
+version = "0.1.4"
+source = "git+https://github.com/verrchu/poker-lib.git?tag=0.1.4#3db29b504b18077c2d623db07a2af3b13fa0a99f"
 dependencies = [
  "claim",
  "itertools",
