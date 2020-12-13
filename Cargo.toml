@@ -8,3 +8,4 @@ edition = "2018"
 poker-lib = { git = "https://github.com/verrchu/poker-lib.git", tag = "0.1.4" }
 
 itertools = "^0.9"
+rand = "^0.7"
